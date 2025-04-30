@@ -45,7 +45,7 @@ const Education = () => {
               } ml-8 transform transition-transform duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
-              <div className="flex items-center space-x-6">
+              <div className="flex flex-col items-start">
                 {/* School Logo/Image */}
                 <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
                   <img
@@ -56,7 +56,7 @@ const Education = () => {
                 </div>
 
                 {/* Degree, School Name, and Date */}
-                <div className="flex flex-col justify-between">
+                <div className="flex flex-col justify-between mt-4">
                   <div>
                     <h3 className="text-xl sm:text-xl font-semibold text-white">
                       {edu.degree}

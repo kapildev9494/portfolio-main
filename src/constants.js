@@ -34,12 +34,12 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/Infosys_logo.png';
+import webverseLogo from './assets/company_logo/Infosys_logo.webp';
 import agcLogo from './assets/company_logo/waisl_logo.png';
-import newtonschoolLogo from './assets/company_logo/gmr_logo.png';
+import newtonschoolLogo from './assets/company_logo/gmr_logo.jpg';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gmr_logo.png';
+import glaLogo from './assets/education_logo/gmr_logo.jpg';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
@@ -127,7 +127,7 @@ export const SkillsInfo = [
       role: "Senior Engineer IT",
       company: "WAISL LIMITED",
       date: "AUGUST 2020 - JUNE 2022",
-      desc: "Experienced in creating reusable UI components for efficient development and maintaining scalable codebases.",
+      desc: "Experienced in creating reusable UI components for efficient development and maintaining scalable codebases. Experienced in integrating RESTful APIs and GraphQL endpoints, utilizing Axios or Fetch for efficient data fetching and management.",
       skills: [
         "ReactJS",
         "Redux",

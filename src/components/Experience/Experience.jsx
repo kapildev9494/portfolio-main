@@ -46,9 +46,9 @@ const Experience = () => {
               }  ml-8 transform transition-transform duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
-              <div className="flex items-center space-x-6">
+              <div className="flex flex-col items-start">
                 {/* Company Logo/Image */}
-                <div className="w-16 h-16 bg-white rounded-md overflow-hidden">
+                <div className="w-[100px] bg-white rounded-md overflow-hidden">
                   <img
                     src={experience.img}
                     alt={experience.company}
@@ -57,7 +57,7 @@ const Experience = () => {
                 </div>
 
                 {/* Role, Company Name, and Date */}
-                <div className="flex flex-col justify-between">
+                <div className="flex flex-col justify-between mt-4">
                   <div>
                     <h3 className="text-xl sm:text-2xl font-semibold text-white">
                       {experience.role}
